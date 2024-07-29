@@ -1,1 +1,8 @@
-.container {}
+span {
+  border: 2px solid red;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
