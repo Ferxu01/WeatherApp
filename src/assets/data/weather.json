@@ -1,0 +1,566 @@
+{
+  "origen": {
+    "productor": "Agencia Estatal de Meteorolog\u00eda - AEMET. Gobierno de Espa\u00f1a",
+    "web": "https:\/\/www.aemet.es",
+    "language": "es",
+    "copyright": "\u00a9 AEMET. Autorizado el uso de la informaci\u00f3n y su reproducci\u00f3n citando a AEMET como autora de la misma.",
+    "nota_legal": "https:\/\/www.aemet.es\/es\/nota_legal",
+    "descripcion": "elTiempo.net muestra la informaci\u00f3n meteorol\u00f3gica creada por \u00a9 AEMET"
+  },
+  "title": "elTiempo.net",
+  "ciudades": [
+    {
+      "id": "08019",
+      "idProvince": "08",
+      "name": "Barcelona",
+      "nameProvince": "Barcelona",
+      "stateSky": {
+        "description": "Despejado",
+        "id": "11"
+      },
+      "temperatures": {
+        "max": "33",
+        "min": "24"
+      }
+    },
+    {
+      "id": "28079",
+      "idProvince": "28",
+      "name": "Madrid",
+      "nameProvince": "Madrid",
+      "stateSky": {
+        "description": "Intervalos nubosos",
+        "id": "13"
+      },
+      "temperatures": {
+        "max": "37",
+        "min": "26"
+      }
+    },
+    {
+      "id": "41091",
+      "idProvince": "41",
+      "name": "Sevilla",
+      "nameProvince": "Sevilla",
+      "stateSky": {
+        "description": "Despejado",
+        "id": "11"
+      },
+      "temperatures": {
+        "max": "38",
+        "min": "26"
+      }
+    },
+    {
+      "id": "46250",
+      "idProvince": "46",
+      "name": "Val\u00c3\u0161ncia",
+      "nameProvince": "Valencia",
+      "stateSky": {
+        "description": "Despejado",
+        "id": "11"
+      },
+      "temperatures": {
+        "max": "33",
+        "min": "23"
+      }
+    },
+    {
+      "id": "48020",
+      "idProvince": "48",
+      "name": "Bilbao",
+      "nameProvince": "Bizkaia",
+      "stateSky": {
+        "description": "Intervalos nubosos",
+        "id": "13"
+      },
+      "temperatures": {
+        "max": "34",
+        "min": "19"
+      }
+    },
+    {
+      "id": "15030",
+      "idProvince": "15",
+      "name": "Coru\u00c3\u00b1a, A",
+      "nameProvince": "A Coru\u00c3\u00b1a",
+      "stateSky": {
+        "description": "Intervalos nubosos",
+        "id": "13"
+      },
+      "temperatures": {
+        "max": "25",
+        "min": "18"
+      }
+    },
+    {
+      "id": "33044",
+      "idProvince": "33",
+      "name": "Oviedo",
+      "nameProvince": "Asturias",
+      "stateSky": {
+        "description": "Intervalos nubosos con lluvia",
+        "id": "23"
+      },
+      "temperatures": {
+        "max": "30",
+        "min": "19"
+      }
+    },
+    {
+      "id": "38028",
+      "idProvince": "38",
+      "name": "Puerto de la Cruz",
+      "nameProvince": "Santa Cruz de Tenerife (Tenerife)",
+      "stateSky": {
+        "description": "Muy nuboso con lluvia escasa",
+        "id": "45"
+      },
+      "temperatures": {
+        "max": "24",
+        "min": "20"
+      }
+    },
+    {
+      "id": "07026",
+      "idProvince": "07",
+      "name": "Eivissa",
+      "nameProvince": "Illes Balears (Ibiza-Formentera)",
+      "stateSky": {
+        "description": "Despejado",
+        "id": "11"
+      },
+      "temperatures": {
+        "max": "33",
+        "min": "25"
+      }
+    },
+    {
+      "id": "10037",
+      "idProvince": "10",
+      "name": "C\u00c3\u00a1ceres",
+      "nameProvince": "C\u00c3\u00a1ceres",
+      "stateSky": {
+        "description": "Intervalos nubosos",
+        "id": "13"
+      },
+      "temperatures": {
+        "max": "37",
+        "min": "26"
+      }
+    },
+    {
+      "id": "04013",
+      "idProvince": "04",
+      "name": "Almer\u00c3\u00ada",
+      "nameProvince": "Almer\u00c3\u00ada",
+      "stateSky": {
+        "description": "Poco nuboso",
+        "id": "12"
+      },
+      "temperatures": {
+        "max": "38",
+        "min": "27"
+      }
+    },
+    {
+      "id": "23028",
+      "idProvince": "23",
+      "name": "Cazorla",
+      "nameProvince": "Ja\u00c3\u00a9n",
+      "stateSky": {
+        "description": "Intervalos nubosos",
+        "id": "13"
+      },
+      "temperatures": {
+        "max": "40",
+        "min": "27"
+      }
+    }
+  ],
+  "today": {
+    "p": [
+      "Se prev\u00c3\u00a9 la entrada de una DANA por el sudoeste que dejar\u00c3\u00a1 abundante nubosidad de tipo medio y alto afectando a la mayor parte de la Pen\u00c3\u00adnsula. \u00c3\u009anicamente en el extremo oriental y Baleares predominar\u00c3\u00a1n cielos poco nubosos o despejados. Con un margen de incertidumbre, se espera que se produzcan chubascos y tormentas ocasionales en amplias zonas del interior peninsular, m\u00c3\u00a1s probables e intensas en el cuadrante noroeste, donde podr\u00c3\u00adan ser localmente fuertes, con rachas muy fuertes y granizo. Por otro lado, se esperan nubes bajas matinales en el golfo de C\u00c3\u00a1diz, Estrecho y Melilla, as\u00c3\u00ad como en Galicia y Cant\u00c3\u00a1brico, donde es posible que se den nieblas costeras que perduren a lo largo del d\u00c3\u00ada. En Canarias se esperan intervalos nubosos, con probables precipitaciones dispersas en las islas monta\u00c3\u00b1osas, sin descartar el resto.",
+      "La DANA traer\u00c3\u00a1 calima a gran parte de la Pen\u00c3\u00adnsula.",
+      "Las temperaturas m\u00c3\u00a1ximas tender\u00c3\u00a1n a aumentar en el extremo norte y \u00c3\u00a1rea mediterr\u00c3\u00a1nea y a descender en la Meseta. Superar\u00c3\u00a1n los 35 grados en zonas de interior de la mitad sur y del nordeste, incluso los 40 en puntos del Guadalquivir. Las m\u00c3\u00adnimas aumentar\u00c3\u00a1n en el interior del tercio norte y en el cuadrantes suroeste y se mantendr\u00c3\u00a1n por encima de los 25 grados en el litoral sudeste y zonas del Tajo, Guadiana y Guadalquivir.",
+      "Alisios en Canarias, vientos del norte y nordeste en litorales de Galicia, predominio de levante en el \u00c3\u00a1rea mediterr\u00c3\u00a1nea, componente este en el tercio oriental y variables en el resto, con rachas fuertes en zonas de tormenta."
+    ]
+  },
+  "tomorrow": {
+    "p": [
+      "Se prev\u00c3\u00a9 que los restos de una DANA acaben de recorrer la Pen\u00c3\u00adnsula, con nubes medias y altas desplaz\u00c3\u00a1ndose de suroeste a nordeste y con nubes de evoluci\u00c3\u00b3n en la mitad norte y tercio este. Todav\u00c3\u00ada se esperan chubascos y tormentas en zonas de interior del cuadrante noroeste a primeras horas que tender\u00c3\u00a1n a moverse al este desapareciendo. Tambi\u00c3\u00a9n se esperan algunos chubascos en el \u00c3\u00a1rea pirenaica sin descartar alguna tormenta ocasional y, con baja probabilidad, algunas tormentas secas en zonas de la meseta Sur. Predominar\u00c3\u00a1n los cielos poco nubosos en el resto de la Pen\u00c3\u00adnsula y en Baleares. En general, tender\u00c3\u00a1 a abrirse claros y a cesar las precipitaciones, quedando al final del d\u00c3\u00ada cielos poco nubosos y sin precipitaciones en la mayor parte de la Pen\u00c3\u00adnsula salvo algunas nubes bajas costeras en litorales del noroeste y del Estrecho. En Canarias, intervalos de nubes bajas en el norte del archipi\u00c3\u00a9lago sin descartar alguna precipitaci\u00c3\u00b3n d\u00c3\u00a9bil aislada y poco nuboso al sur.",
+      "Probable calima en buena parte de la Pen\u00c3\u00adnsula y Baleares, retir\u00c3\u00a1ndose hacia el nordeste. Probabilidad de brumas y nieblas costeras en el Cant\u00c3\u00a1brico occidental, litorales de Galicia, atl\u00c3\u00a1ntico andaluz y de Albor\u00c3\u00a1n.",
+      "Las temperaturas m\u00c3\u00a1ximas tienden a descender en el extremo norte y el oeste mientras tienden a aumentar en el \u00c3\u00a1rea mediterr\u00c3\u00a1nea y el cuadrante sureste. Es probable que se contin\u00c3\u00baen superando los 35 grados en interiores de la mitad sur e interior nordeste peninsular, meseta Norte, Ampurd\u00c3\u00a1n y zonas de Baleares, incluso 40 en depresiones del nordeste y del sur. Las m\u00c3\u00adnimas descender\u00c3\u00a1n en el oeste, aumentar\u00c3\u00a1n en el este y se mantendr\u00c3\u00a1n por encima de los 25 grados en el litoral sudeste, sin descartar en puntos de valles del sur de la vertiente atl\u00c3\u00a1ntica.",
+      "Soplar\u00c3\u00a1 alisio flojo o moderado en Canarias. Predominar\u00c3\u00a1n vientos flojos de componentes este y sur en el Mediterr\u00c3\u00a1neo y tercio oriental peninsular, nordeste en litorales gallegos y variables, predominando las componentes sur y oeste en el resto."
+    ]
+  },
+  "provincias": [
+    {
+      "CODPROV": "15",
+      "NOMBRE_PROVINCIA": "A Coru\u00f1a",
+      "CODAUTON": "12",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Galicia",
+      "CAPITAL_PROVINCIA": "A Coru\u00f1a"
+    },
+    {
+      "CODPROV": "03",
+      "NOMBRE_PROVINCIA": "Alacant\/Alicante",
+      "CODAUTON": "10",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Comunitat Valenciana",
+      "CAPITAL_PROVINCIA": "Alicante\/Alacant"
+    },
+    {
+      "CODPROV": "02",
+      "NOMBRE_PROVINCIA": "Albacete",
+      "CODAUTON": "08",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Castilla-La Mancha",
+      "CAPITAL_PROVINCIA": "Albacete"
+    },
+    {
+      "CODPROV": "04",
+      "NOMBRE_PROVINCIA": "Almer\u00eda",
+      "CODAUTON": "01",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Andaluc\u00eda",
+      "CAPITAL_PROVINCIA": "Almer\u00eda"
+    },
+    {
+      "CODPROV": "01",
+      "NOMBRE_PROVINCIA": "Araba\/\u00c1lava",
+      "CODAUTON": "16",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Pa\u00eds Vasco\/Euskadi",
+      "CAPITAL_PROVINCIA": "Vitoria-Gasteiz"
+    },
+    {
+      "CODPROV": "33",
+      "NOMBRE_PROVINCIA": "Asturias",
+      "CODAUTON": "03",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Principado de Asturias",
+      "CAPITAL_PROVINCIA": "Oviedo"
+    },
+    {
+      "CODPROV": "05",
+      "NOMBRE_PROVINCIA": "\u00c1vila",
+      "CODAUTON": "07",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Castilla y Le\u00f3n",
+      "CAPITAL_PROVINCIA": "\u00c1vila"
+    },
+    {
+      "CODPROV": "06",
+      "NOMBRE_PROVINCIA": "Badajoz",
+      "CODAUTON": "11",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Extremadura",
+      "CAPITAL_PROVINCIA": "Badajoz"
+    },
+    {
+      "CODPROV": "08",
+      "NOMBRE_PROVINCIA": "Barcelona",
+      "CODAUTON": "09",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Catalu\u00f1a\/Catalunya",
+      "CAPITAL_PROVINCIA": "Barcelona"
+    },
+    {
+      "CODPROV": "48",
+      "NOMBRE_PROVINCIA": "Bizkaia",
+      "CODAUTON": "16",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Pa\u00eds Vasco\/Euskadi",
+      "CAPITAL_PROVINCIA": "Bilbao"
+    },
+    {
+      "CODPROV": "09",
+      "NOMBRE_PROVINCIA": "Burgos",
+      "CODAUTON": "07",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Castilla y Le\u00f3n",
+      "CAPITAL_PROVINCIA": "Burgos"
+    },
+    {
+      "CODPROV": "10",
+      "NOMBRE_PROVINCIA": "C\u00e1ceres",
+      "CODAUTON": "11",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Extremadura",
+      "CAPITAL_PROVINCIA": "C\u00e1ceres"
+    },
+    {
+      "CODPROV": "11",
+      "NOMBRE_PROVINCIA": "C\u00e1diz",
+      "CODAUTON": "01",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Andaluc\u00eda",
+      "CAPITAL_PROVINCIA": "C\u00e1diz"
+    },
+    {
+      "CODPROV": "39",
+      "NOMBRE_PROVINCIA": "Cantabria",
+      "CODAUTON": "06",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Cantabria",
+      "CAPITAL_PROVINCIA": "Santander"
+    },
+    {
+      "CODPROV": "12",
+      "NOMBRE_PROVINCIA": "Castell\u00f3\/Castell\u00f3n",
+      "CODAUTON": "10",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Comunitat Valenciana",
+      "CAPITAL_PROVINCIA": "Castell\u00f3n de la Plana\/Castell\u00f3 de la Plana"
+    },
+    {
+      "CODPROV": "51",
+      "NOMBRE_PROVINCIA": "Ceuta",
+      "CODAUTON": "18",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Ciudad Aut\u00f3noma de Ceuta",
+      "CAPITAL_PROVINCIA": "Ceuta"
+    },
+    {
+      "CODPROV": "13",
+      "NOMBRE_PROVINCIA": "Ciudad Real",
+      "CODAUTON": "08",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Castilla-La Mancha",
+      "CAPITAL_PROVINCIA": "Ciudad Real"
+    },
+    {
+      "CODPROV": "14",
+      "NOMBRE_PROVINCIA": "C\u00f3rdoba",
+      "CODAUTON": "01",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Andaluc\u00eda",
+      "CAPITAL_PROVINCIA": "C\u00f3rdoba"
+    },
+    {
+      "CODPROV": "16",
+      "NOMBRE_PROVINCIA": "Cuenca",
+      "CODAUTON": "08",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Castilla-La Mancha",
+      "CAPITAL_PROVINCIA": "Cuenca"
+    },
+    {
+      "CODPROV": "20",
+      "NOMBRE_PROVINCIA": "Gipuzkoa",
+      "CODAUTON": "16",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Pa\u00eds Vasco\/Euskadi",
+      "CAPITAL_PROVINCIA": "Donostia\/San Sebasti\u00e1n"
+    },
+    {
+      "CODPROV": "17",
+      "NOMBRE_PROVINCIA": "Girona",
+      "CODAUTON": "09",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Catalu\u00f1a\/Catalunya",
+      "CAPITAL_PROVINCIA": "Girona"
+    },
+    {
+      "CODPROV": "18",
+      "NOMBRE_PROVINCIA": "Granada",
+      "CODAUTON": "01",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Andaluc\u00eda",
+      "CAPITAL_PROVINCIA": "Granada"
+    },
+    {
+      "CODPROV": "19",
+      "NOMBRE_PROVINCIA": "Guadalajara",
+      "CODAUTON": "08",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Castilla-La Mancha",
+      "CAPITAL_PROVINCIA": "Guadalajara"
+    },
+    {
+      "CODPROV": "21",
+      "NOMBRE_PROVINCIA": "Huelva",
+      "CODAUTON": "01",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Andaluc\u00eda",
+      "CAPITAL_PROVINCIA": "Huelva"
+    },
+    {
+      "CODPROV": "22",
+      "NOMBRE_PROVINCIA": "Huesca",
+      "CODAUTON": "02",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Arag\u00f3n",
+      "CAPITAL_PROVINCIA": "Huesca"
+    },
+    {
+      "CODPROV": "07",
+      "NOMBRE_PROVINCIA": "Illes Balears",
+      "CODAUTON": "04",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Illes Balears",
+      "CAPITAL_PROVINCIA": "Palma de Mallorca"
+    },
+    {
+      "CODPROV": "23",
+      "NOMBRE_PROVINCIA": "Ja\u00e9n",
+      "CODAUTON": "01",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Andaluc\u00eda",
+      "CAPITAL_PROVINCIA": "Ja\u00e9n"
+    },
+    {
+      "CODPROV": "26",
+      "NOMBRE_PROVINCIA": "La Rioja",
+      "CODAUTON": "17",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "La Rioja",
+      "CAPITAL_PROVINCIA": "Logro\u00f1o"
+    },
+    {
+      "CODPROV": "35",
+      "NOMBRE_PROVINCIA": "Las Palmas",
+      "CODAUTON": "05",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Canarias",
+      "CAPITAL_PROVINCIA": "Las Palmas de Gran Canaria"
+    },
+    {
+      "CODPROV": "24",
+      "NOMBRE_PROVINCIA": "Le\u00f3n",
+      "CODAUTON": "07",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Castilla y Le\u00f3n",
+      "CAPITAL_PROVINCIA": "Le\u00f3n"
+    },
+    {
+      "CODPROV": "25",
+      "NOMBRE_PROVINCIA": "Lleida",
+      "CODAUTON": "09",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Catalu\u00f1a\/Catalunya",
+      "CAPITAL_PROVINCIA": "Lleida"
+    },
+    {
+      "CODPROV": "27",
+      "NOMBRE_PROVINCIA": "Lugo",
+      "CODAUTON": "12",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Galicia",
+      "CAPITAL_PROVINCIA": "Lugo"
+    },
+    {
+      "CODPROV": "28",
+      "NOMBRE_PROVINCIA": "Madrid",
+      "CODAUTON": "13",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Comunidad de Madrid",
+      "CAPITAL_PROVINCIA": "Madrid"
+    },
+    {
+      "CODPROV": "29",
+      "NOMBRE_PROVINCIA": "M\u00e1laga",
+      "CODAUTON": "01",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Andaluc\u00eda",
+      "CAPITAL_PROVINCIA": "M\u00e1laga"
+    },
+    {
+      "CODPROV": "52",
+      "NOMBRE_PROVINCIA": "Melilla",
+      "CODAUTON": "19",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Ciudad Aut\u00f3noma de Melilla",
+      "CAPITAL_PROVINCIA": "Melilla"
+    },
+    {
+      "CODPROV": "30",
+      "NOMBRE_PROVINCIA": "Murcia",
+      "CODAUTON": "14",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Regi\u00f3n de Murcia",
+      "CAPITAL_PROVINCIA": "Murcia"
+    },
+    {
+      "CODPROV": "31",
+      "NOMBRE_PROVINCIA": "Navarra",
+      "CODAUTON": "15",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Comunidad Foral de Navarra",
+      "CAPITAL_PROVINCIA": "Pamplona\/Iru\u00f1a"
+    },
+    {
+      "CODPROV": "32",
+      "NOMBRE_PROVINCIA": "Ourense",
+      "CODAUTON": "12",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Galicia",
+      "CAPITAL_PROVINCIA": "Ourense"
+    },
+    {
+      "CODPROV": "34",
+      "NOMBRE_PROVINCIA": "Palencia",
+      "CODAUTON": "07",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Castilla y Le\u00f3n",
+      "CAPITAL_PROVINCIA": "Palencia"
+    },
+    {
+      "CODPROV": "36",
+      "NOMBRE_PROVINCIA": "Pontevedra",
+      "CODAUTON": "12",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Galicia",
+      "CAPITAL_PROVINCIA": "Pontevedra"
+    },
+    {
+      "CODPROV": "37",
+      "NOMBRE_PROVINCIA": "Salamanca",
+      "CODAUTON": "07",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Castilla y Le\u00f3n",
+      "CAPITAL_PROVINCIA": "Salamanca"
+    },
+    {
+      "CODPROV": "38",
+      "NOMBRE_PROVINCIA": "Santa Cruz de Tenerife",
+      "CODAUTON": "05",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Canarias",
+      "CAPITAL_PROVINCIA": "Santa Cruz de Tenerife"
+    },
+    {
+      "CODPROV": "40",
+      "NOMBRE_PROVINCIA": "Segovia",
+      "CODAUTON": "07",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Castilla y Le\u00f3n",
+      "CAPITAL_PROVINCIA": "Segovia"
+    },
+    {
+      "CODPROV": "41",
+      "NOMBRE_PROVINCIA": "Sevilla",
+      "CODAUTON": "01",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Andaluc\u00eda",
+      "CAPITAL_PROVINCIA": "Sevilla"
+    },
+    {
+      "CODPROV": "42",
+      "NOMBRE_PROVINCIA": "Soria",
+      "CODAUTON": "07",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Castilla y Le\u00f3n",
+      "CAPITAL_PROVINCIA": "Soria"
+    },
+    {
+      "CODPROV": "43",
+      "NOMBRE_PROVINCIA": "Tarragona",
+      "CODAUTON": "09",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Catalu\u00f1a\/Catalunya",
+      "CAPITAL_PROVINCIA": "Tarragona"
+    },
+    {
+      "CODPROV": "44",
+      "NOMBRE_PROVINCIA": "Teruel",
+      "CODAUTON": "02",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Arag\u00f3n",
+      "CAPITAL_PROVINCIA": "Teruel"
+    },
+    {
+      "CODPROV": "45",
+      "NOMBRE_PROVINCIA": "Toledo",
+      "CODAUTON": "08",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Castilla-La Mancha",
+      "CAPITAL_PROVINCIA": "Toledo"
+    },
+    {
+      "CODPROV": "46",
+      "NOMBRE_PROVINCIA": "Val\u00e8ncia\/Valencia",
+      "CODAUTON": "10",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Comunitat Valenciana",
+      "CAPITAL_PROVINCIA": "Valencia"
+    },
+    {
+      "CODPROV": "47",
+      "NOMBRE_PROVINCIA": "Valladolid",
+      "CODAUTON": "07",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Castilla y Le\u00f3n",
+      "CAPITAL_PROVINCIA": "Valladolid"
+    },
+    {
+      "CODPROV": "49",
+      "NOMBRE_PROVINCIA": "Zamora",
+      "CODAUTON": "07",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Castilla y Le\u00f3n",
+      "CAPITAL_PROVINCIA": "Zamora"
+    },
+    {
+      "CODPROV": "50",
+      "NOMBRE_PROVINCIA": "Zaragoza",
+      "CODAUTON": "02",
+      "COMUNIDAD_CIUDAD_AUTONOMA": "Arag\u00f3n",
+      "CAPITAL_PROVINCIA": "Zaragoza"
+    }
+  ],
+  "breadcrumb": [],
+  "metadescripcion": "elTiempo.net | La previsi\u00f3n meteorol\u00f3gica diaria de provincias y municipios de Espa\u00f1a",
+  "keywords": "Previsi\u00f3n, meteorol\u00f3gica, tiempo, Espa\u00f1a, municipios, previsi\u00f3n del tiempo, previsi\u00f3n meteorol\u00f3gica"
+}

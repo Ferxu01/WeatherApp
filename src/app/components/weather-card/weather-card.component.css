@@ -1,0 +1,27 @@
+article {
+  background-color: #fff;
+  border: 1px solid orange;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+article header {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+article header img {
+  width: 144px;
+  height: 144px;
+}
+
+article section {
+  border: 1px solid darkgreen;
+}
+
+article footer {
+  border: 1px solid darkgoldenrod;
+}
