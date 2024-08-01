@@ -1,16 +1,23 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { WeatherCardComponent } from './weather-card/weather-card.component';
+import { PipesModule } from "../pipes/pipes.module";
+import { CitiesCarouselComponent } from './cities-carousel/cities-carousel.component';
 
 
 
 @NgModule({
-  declarations: [WeatherCardComponent],
+  declarations: [
+    WeatherCardComponent,
+    CitiesCarouselComponent
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    PipesModule
   ],
   exports: [
-    WeatherCardComponent
+    WeatherCardComponent,
+    CitiesCarouselComponent
   ]
 })
 export class ComponentsModule { }

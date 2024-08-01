@@ -1,13 +1,18 @@
 <article>
   <header>
     <img src="assets/svg/{{icon}}" alt="{{icon}}">
+    <div class="temperature">
+
+      <span class="max">{{ maxTemp | degree }}</span>
+      <span class="min">{{ minTemp | degree }}</span>
+    </div>
   </header>
   <section>
-    {{city.name}}
+    <div>
+      <span>{{ city.name | utf8Correction }}</span>
+    </div>
+    <div>
+      <small>({{ city.nameProvince | utf8Correction }})</small>
+    </div>
   </section>
-  <footer>
-    {{city.stateSky.description}}
-    {{city.temperatures.min}} -
-    {{city.temperatures.max}}
-  </footer>
 </article>

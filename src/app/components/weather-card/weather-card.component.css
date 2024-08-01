@@ -1,9 +1,13 @@
 article {
+  /* box-sizing: border-box; */
   background-color: #fff;
   border: 1px solid orange;
   border-radius: 10px;
   padding: 10px;
   width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  box-sizing: border-box;
 }
 
 article header {
@@ -11,17 +15,55 @@ article header {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 15px;
 }
 
 article header img {
-  width: 144px;
-  height: 144px;
+  width: 120px;
+  height: 120px;
+}
+
+article header div.temperature {
+  border: 1px solid green;
+  width: 60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 article section {
   border: 1px solid darkgreen;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px;
 }
 
-article footer {
-  border: 1px solid darkgoldenrod;
+article section div {
+  padding: 0 2.5px;
+}
+
+article section div span {
+  font-weight: 700;
+  color: #3d3737;
+}
+
+.temperature span {
+  font-size: 30px;
+  margin: 5px 0;
+}
+
+.min, .max {
+  border: 1px solid lightcoral;
+  font-weight: 600;
+}
+
+.min {
+  color: blue;
+}
+
+.max {
+  color: red;
 }

@@ -12,13 +12,17 @@ export class WeatherCardComponent implements OnInit {
   @Input() city!: City;
 
   icon!: string;
-  minTemp!: number;
-  maxTemp!: number;
+  minTemp!: string;
+  maxTemp!: string;
+  description!: string;
 
   constructor () { }
 
   ngOnInit(): void {
     this.icon = WEATHER_ICONS[this.city.stateSky.description] || WEATHER_ICONS['Despejado'];
+    this.minTemp = this.city.temperatures.min;
+    this.maxTemp = this.city.temperatures.max;
+    this.description = this.city.stateSky.description;
   }
 
 
