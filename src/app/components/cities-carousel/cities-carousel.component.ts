@@ -20,12 +20,6 @@ export class CitiesCarouselComponent implements OnInit {
     });
   }
 
-  calculateItemWidth() {
-    const carousel = this.carousel.nativeElement;
-    const visibleItems = Math.floor(carousel.offsetWidth / carousel.children[0].clientWidth);
-    this.itemWidth = carousel.offsetWidth / visibleItems;
-  }
-
   nextItem() {
     this.index++;
 
@@ -48,11 +42,12 @@ export class CitiesCarouselComponent implements OnInit {
 
   private scrollToIndex() {
     const carousel = this.carousel.nativeElement;
-    //let itemWidth = carousel.scrollWidth / this.cities.length;
-    //console.log(itemWidth*2);
-    //itemWidth = 290;
+
+    console.log(this.index * this.itemWidth + this.index * 20);
+    const TEST_DATA = this.index * this.itemWidth + this.index * 20;
+
     carousel.scrollTo({
-      left: this.index * this.itemWidth,
+      left: TEST_DATA,
       behavior: 'smooth'
     });
   }

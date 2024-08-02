@@ -3,9 +3,6 @@
 
   <div #carousel class="slider">
     <app-weather-card *ngFor="let city of cities" [city]="city" />
-    <!-- <div class="prueba-verde"></div>
-    <div class="prueba-rojo"></div>
-    <div class="prueba-azul"></div> -->
   </div>
 
   <a (click)="nextItem()">&gt;</a>
