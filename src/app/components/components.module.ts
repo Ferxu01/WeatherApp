@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { WeatherCardComponent } from './weather-card/weather-card.component';
 import { PipesModule } from "../pipes/pipes.module";
 import { CitiesCarouselComponent } from './cities-carousel/cities-carousel.component';
+import { MunicipalCardComponent } from './municipal-card/municipal-card.component';
 
 
 
 @NgModule({
   declarations: [
     WeatherCardComponent,
-    CitiesCarouselComponent
+    CitiesCarouselComponent,
+    MunicipalCardComponent
   ],
   imports: [
     CommonModule,
@@ -17,7 +19,8 @@ import { CitiesCarouselComponent } from './cities-carousel/cities-carousel.compo
   ],
   exports: [
     WeatherCardComponent,
-    CitiesCarouselComponent
+    CitiesCarouselComponent,
+    MunicipalCardComponent
   ]
 })
 export class ComponentsModule { }

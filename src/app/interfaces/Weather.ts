@@ -1,3 +1,5 @@
+import { Origin, Province } from './General';
+
 export interface WeatherResponse {
   origen: Origin;
   title: string;
@@ -5,15 +7,6 @@ export interface WeatherResponse {
   today: Today;
   tomorrow: Today;
   provincias: Province[];
-}
-
-export interface Origin {
-  productor:   string;
-  web:         string;
-  language:    string;
-  copyright:   string;
-  nota_legal:  string;
-  descripcion: string;
 }
 
 export interface City {
@@ -37,12 +30,4 @@ export interface Today {
 export interface StateSky {
   description: string;
   id:          string;
-}
-
-export interface Province {
-  CODPROV:                   string;
-  NOMBRE_PROVINCIA:          string;
-  CODAUTON:                  string;
-  COMUNIDAD_CIUDAD_AUTONOMA: string;
-  CAPITAL_PROVINCIA:         string;
 }

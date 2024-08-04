@@ -14,12 +14,12 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
     this.links = [
       {
-        title: 'Link 1',
-        url: 'https://www.google.es'
+        title: 'Inicio',
+        url: 'home'
       },
       {
-        title: 'Link 2',
-        url: 'https://www.youtube.com'
+        title: 'Ver Provincias',
+        url: 'weather'
       },
       {
         title: 'Link 3',

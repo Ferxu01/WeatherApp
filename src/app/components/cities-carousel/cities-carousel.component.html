@@ -2,7 +2,7 @@
   <a (click)="previousItem()">&lt;</a>
 
   <div #carousel class="slider">
-    <app-weather-card *ngFor="let city of cities" [city]="city" />
+    <Weather-card *ngFor="let city of cities" [city]="city" />
   </div>
 
   <a (click)="nextItem()">&gt;</a>

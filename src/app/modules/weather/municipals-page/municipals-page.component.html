@@ -1,0 +1,18 @@
+<section>
+  <div class="municipals-container">
+    <div data-id="{{community.CODAUTON}}" *ngFor="let community of communities">
+      <p>{{community.COMUNIDAD_CIUDAD_AUTONOMA}}</p>
+
+      <div *ngFor="let item of groupedMunicipals" class="community-provinces">
+
+        <ul *ngIf="item.CODAUTON === community.CODAUTON">
+          <li *ngFor="let province of item.provinces">
+            <p>{{province.NOMBRE_PROVINCIA}}</p>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+</section>

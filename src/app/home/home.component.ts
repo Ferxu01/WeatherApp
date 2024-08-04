@@ -4,7 +4,7 @@ import { WeatherJsonService } from '../services/test/weather-json.service';
 import { WeatherResponse } from '../interfaces/Weather';
 
 @Component({
-  selector: 'app-home',
+  selector: 'Home-page',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })

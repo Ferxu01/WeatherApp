@@ -4,7 +4,7 @@ import { WEATHER_ICONS } from '../../constants'
 import { City } from 'src/app/interfaces/Weather';
 
 @Component({
-  selector: 'app-weather-card',
+  selector: 'Weather-card',
   templateUrl: './weather-card.component.html',
   styleUrls: ['./weather-card.component.css']
 })

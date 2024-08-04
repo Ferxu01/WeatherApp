@@ -1,4 +1,3 @@
-import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 import * as weatherData from '../../../assets/data/weather.json';
@@ -9,8 +8,6 @@ import { WeatherResponse } from 'src/app/interfaces/Weather';
   providedIn: 'root'
 })
 export class WeatherJsonService {
-
-  constructor(private http: HttpClient) { }
 
   getWeather(): Observable<WeatherResponse> {
     return of(weatherData);

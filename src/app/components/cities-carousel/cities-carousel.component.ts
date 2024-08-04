@@ -2,7 +2,7 @@ import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import { City } from 'src/app/interfaces/Weather';
 
 @Component({
-  selector: 'app-cities-carousel',
+  selector: 'Cities-carousel',
   templateUrl: './cities-carousel.component.html',
   styleUrls: ['./cities-carousel.component.css']
 })
