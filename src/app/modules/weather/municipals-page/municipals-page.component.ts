@@ -15,6 +15,7 @@ export class MunicipalsPageComponent implements OnInit {
   communities!: {
     CODAUTON: string;
     COMUNIDAD_CIUDAD_AUTONOMA: string;
+    provinces: Province[];
   }[];
   groupedMunicipals!: {
     CODAUTON: string;
@@ -24,10 +25,28 @@ export class MunicipalsPageComponent implements OnInit {
   constructor(private municipalService: MunicipalJsonService) {}
 
   ngOnInit(): void {
-    this.communities = this.municipalService.getCommunities();
-    this.groupedMunicipals = this.municipalService.groupProvincesByCommunities();
+    // this.groupedMunicipals = this.municipalService.groupProvincesByCommunities();
+    // this.communities = this.municipalService.getCommunities();
+
+    const groupedMunicipals = this.municipalService.groupProvincesByCommunities();
+    this.communities = this.municipalService.getCommunities()
+      .map(community => {
+        const provinces = groupedMunicipals.find(gm => {
+          return gm.CODAUTON === community.CODAUTON
+        })?.provinces || [];
+
+        return {
+          ...community,
+          provinces
+        };
+      });
 
     console.log(this.communities);
-    console.warn(this.groupedMunicipals);
+    //console.warn(this.groupedMunicipals);
+  }
+
+  navigatetoDetails(provinceId: string) {
+    console.log(provinceId);
+
   }
 }

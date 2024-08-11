@@ -1,16 +1,18 @@
 <section>
   <div class="municipals-container">
-    <div data-id="{{community.CODAUTON}}" *ngFor="let community of communities">
-      <p>{{community.COMUNIDAD_CIUDAD_AUTONOMA}}</p>
+    <div class="community" data-id="{{community.CODAUTON}}" *ngFor="let community of communities">
 
-      <div *ngFor="let item of groupedMunicipals" class="community-provinces">
+      <div class="community-header">
+        <span>{{community.COMUNIDAD_CIUDAD_AUTONOMA}}</span>
+        <span class="badge">{{ community.provinces.length }}</span>
+      </div>
 
-        <ul *ngIf="item.CODAUTON === community.CODAUTON">
-          <li *ngFor="let province of item.provinces">
-            <p>{{province.NOMBRE_PROVINCIA}}</p>
-          </li>
-        </ul>
-
+      <div *ngIf="community.provinces.length > 0" class="community-provinces">
+        <div [routerLink]="['/weather', province.CODPROV]" routerLinkActive="router-link-active"  *ngFor="let province of community.provinces">
+          <p>
+            {{province.NOMBRE_PROVINCIA}}
+          </p>
+        </div>
       </div>
 
     </div>
