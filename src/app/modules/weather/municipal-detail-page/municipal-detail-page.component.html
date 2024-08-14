@@ -1,0 +1,25 @@
+<div class="province-container">
+  <header>
+    <h3>{{title}}</h3>
+
+    <div class="province-info">
+      <span class="badge">
+        {{province.NOMBRE_PROVINCIA}}
+      </span>
+
+      <span class="badge" [routerLink]="['/weather']">
+        {{community.NOMBRE}}
+      </span>
+    </div>
+  </header>
+
+  <div class="province-card-container">
+    <Weather-card *ngFor="let city of cities" class="weather-card" [city]="city" />
+  </div>
+
+  <Accordion [items]="[
+    {header: 'Hoy', content: todayForecastText},
+    {header: 'Mañana', content: tomorrowForecastText}
+  ]" />
+
+</div>

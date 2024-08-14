@@ -11,6 +11,6 @@ export interface MunicipalsResponse {
 
 export interface Breadcrumb {
   name:  string;
-  url:   string;
+  url:   null | string;
   title: string;
 }

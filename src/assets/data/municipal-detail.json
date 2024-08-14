@@ -1,0 +1,88 @@
+{
+  "origen": {
+    "productor": "Agencia Estatal de Meteorología - AEMET. Gobierno de España",
+    "web": "https://www.aemet.es",
+    "language": "es",
+    "copyright": "© AEMET. Autorizado el uso de la información y su reproducción citando a AEMET como autora de la misma.",
+    "nota_legal": "https://www.aemet.es/es/nota_legal",
+    "descripcion": "elTiempo.net muestra la información meteorológica creada por © AEMET"
+  },
+  "title": "El tiempo en la provincia de Araba/Álava",
+  "today": {
+    "p": "Cielos nubosos de nubes bajas en la mitad norte la primera mitad del dÃ­a, y poco nuboso el resto, aumentando en el interior a intervalos nubosos de evoluciÃ³n. Probabilidad de lluvias dÃ©biles por la maÃ±ana y por la tarde de txubascos, con tormentas ocasionales, mÃ¡s frecuentes en el extremo sur y sudeste al final. Temperaturas mÃ­nimas con pocos cambios en el litoral, y en descenso en el resto, y mÃ¡ximas en descenso notable, extraordinario en la mitad norte de la Comunidad. Viento de componente norte flojo, excepto en el litoral la primera mitad del dÃ­a, cuando serÃ¡ del oeste moderado."
+  },
+  "tomorrow": {
+    "p": "Nuboso o cubierto con nubosidad de evoluciÃ³n y lluvias y chubascos tormentosos, que serÃ¡n mÃ¡s intensos en la mitad oriental a partir del mediodÃ­a, cuando no se descartan que sean localmente fuertes y acompaÃ±ados de granizo. Probables brumas o bancos de niebla matinales en el interior y sin descartarse durante el dÃ­a, asociadas al paso del frente. Temperaturas sin cambios o en ligero descenso. Viento flojo variable, tendiendo a partir del mediodÃ­a a componente norte en el interior y aumentando a noroeste en el litoral."
+  },
+  "ciudades": [
+    {
+      "id": "01059",
+      "idProvince": "01",
+      "name": "Vitoria-Gasteiz",
+      "nameProvince": "Ãlava",
+      "stateSky": {
+        "description": "Nuboso con tormenta",
+        "id": "52"
+      },
+      "temperatures": {
+        "max": "27",
+        "min": "18"
+      }
+    },
+    {
+      "id": "01031",
+      "idProvince": "01",
+      "name": "Laguardia",
+      "nameProvince": "Ãlava",
+      "stateSky": {
+        "description": "Intervalos nubosos con tormenta",
+        "id": "51"
+      },
+      "temperatures": {
+        "max": "32",
+        "min": "19"
+      }
+    },
+    {
+      "id": "01036",
+      "idProvince": "01",
+      "name": "Laudio",
+      "nameProvince": "Ãlava",
+      "stateSky": {
+        "description": "Muy nuboso con lluvia escasa",
+        "id": "45"
+      },
+      "temperatures": {
+        "max": "25",
+        "min": "19"
+      }
+    }
+  ],
+  "provincia": {
+    "CODPROV": "01",
+    "NOMBRE_PROVINCIA": "Araba/Álava",
+    "CODAUTON": "16",
+    "COMUNIDAD_CIUDAD_AUTONOMA": "País Vasco/Euskadi",
+    "CAPITAL_PROVINCIA": "Vitoria-Gasteiz"
+  },
+  "comautonoma": {
+    "ID": "pva",
+    "CODAUTON": "16",
+    "CODCOMUN": "75",
+    "NOMBRE": "PAÍS VASCO"
+  },
+  "metadescripcion": "El tiempo en la provincia de Araba/Álava",
+  "keywords": "El tiempo en la provincia de Araba/Álava, precipitaciones, viento, lluvia, estado del cielo",
+  "breadcrumb": [
+    {
+      "name": "Provincias",
+      "url": "/provincias",
+      "title": "El tiempo | Lista de provincias"
+    },
+    {
+      "name": "Araba/Álava",
+      "url": null,
+      "title": "El tiempo en la provincia de Araba/Álava"
+    }
+  ]
+}
