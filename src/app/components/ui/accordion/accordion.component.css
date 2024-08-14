@@ -1,0 +1,50 @@
+section {
+  border: 1px solid gray;
+  margin: 30px;
+}
+
+summary {
+  background-color: rgb(212, 212, 212);
+  color: #000;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.content {
+  height: auto;
+  overflow: hidden;
+  transition: max-height 0.8s ease-in-out, padding 0.8s ease-in-out;
+}
+
+details {
+  cursor: pointer;
+  max-height: 3.5rem;
+  border-bottom: 1px solid gray;
+
+  overflow: hidden;
+  transition: max-height 0.8s ease-in-out;
+}
+
+details:nth-last-child(1) {
+  border-bottom: none;
+}
+
+/* details, details .content {
+  overflow: hidden;
+  transition: max-height 0.8s ease-in-out;
+} */
+
+details[open] {
+  max-height: 600px;
+}
+
+details[open] .content {
+  padding: 0 15px;
+  text-align: justify;
+}
+
+details[open] summary {
+  background-color: rgb(46, 131, 243);
+  color: #fff;
+  cursor: pointer;
+}

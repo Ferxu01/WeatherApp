@@ -4,6 +4,7 @@ import { WeatherCardComponent } from './weather-card/weather-card.component';
 import { PipesModule } from "../pipes/pipes.module";
 import { CitiesCarouselComponent } from './cities-carousel/cities-carousel.component';
 import { MunicipalCardComponent } from './municipal-card/municipal-card.component';
+import { AccordionComponent } from './ui/accordion/accordion.component';
 
 
 
@@ -11,7 +12,8 @@ import { MunicipalCardComponent } from './municipal-card/municipal-card.componen
   declarations: [
     WeatherCardComponent,
     CitiesCarouselComponent,
-    MunicipalCardComponent
+    MunicipalCardComponent,
+    AccordionComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +22,8 @@ import { MunicipalCardComponent } from './municipal-card/municipal-card.componen
   exports: [
     WeatherCardComponent,
     CitiesCarouselComponent,
-    MunicipalCardComponent
+    MunicipalCardComponent,
+    AccordionComponent
   ]
 })
 export class ComponentsModule { }

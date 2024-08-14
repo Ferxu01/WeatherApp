@@ -1,0 +1,10 @@
+<section>
+
+  <details id="smooth" *ngFor="let item of elements">
+    <summary>{{item.header}}</summary>
+    <div class="content">
+      <p>{{item.content | utf8Correction}}</p>
+    </div>
+  </details>
+
+</section>
