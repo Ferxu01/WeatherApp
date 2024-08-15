@@ -7,14 +7,16 @@
         {{province.NOMBRE_PROVINCIA}}
       </span>
 
-      <span class="badge" [routerLink]="['/weather']">
+      <span class="badge" [routerLink]="['/weather', 'provinces']">
         {{community.NOMBRE}}
       </span>
     </div>
   </header>
 
   <div class="province-card-container">
-    <Weather-card *ngFor="let city of cities" class="weather-card" [city]="city" />
+    <!-- <Weather-card *ngFor="let city of cities" [city]="city" /> -->
+
+    <Cities-carousel [cities]="cities" />
   </div>
 
   <Accordion [items]="[

@@ -35,8 +35,10 @@ div.forecast-data-info {
 .badge {
   background-color: darkblue;
   color: #fff;
-  width: auto;
-  height: 22px;
+  border: 2px solid green;
+  min-width: fit-content;
+  width: 1.5em;
+  height: 1.5em;
   padding: 0.2rem 0.4rem;
   border-radius: 10px;
   font-weight: 700;

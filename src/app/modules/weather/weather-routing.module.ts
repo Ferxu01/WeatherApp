@@ -5,11 +5,11 @@ import { MunicipalDetailPageComponent } from './municipal-detail-page/municipal-
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'provinces',
     component: MunicipalsPageComponent
   },
   {
-    path: ':id',
+    path: 'provinces/:id',
     component: MunicipalDetailPageComponent
   }
 ];

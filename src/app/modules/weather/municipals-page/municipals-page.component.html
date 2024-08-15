@@ -8,7 +8,7 @@
       </div>
 
       <div *ngIf="community.provinces.length > 0" class="community-provinces">
-        <div [routerLink]="['/weather', province.CODPROV]" routerLinkActive="router-link-active"  *ngFor="let province of community.provinces">
+        <div [routerLink]="['/weather', 'provinces', province.CODPROV]" routerLinkActive="router-link-active"  *ngFor="let province of community.provinces">
           <p>
             {{province.NOMBRE_PROVINCIA}}
           </p>

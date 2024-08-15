@@ -19,7 +19,7 @@ export class NavbarComponent implements OnInit {
       },
       {
         title: 'Ver Provincias',
-        url: 'weather'
+        url: 'weather/provinces'
       },
       {
         title: 'Link 3',
