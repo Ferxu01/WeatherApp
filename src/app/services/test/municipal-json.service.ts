@@ -1,9 +1,11 @@
 import { Injectable } from '@angular/core';
 
 import * as municipalsData from '../../../assets/data/municipals.json';
+import * as municipalsProvince from '../../../assets/data/municipalsProvince.json';
 import { Observable, of } from 'rxjs';
 import { MunicipalsResponse } from 'src/app/interfaces/Municipal';
 import { Province } from 'src/app/interfaces/General';
+import { MunicipalsProvinceResponse } from 'src/app/interfaces/MunicipalProvince';
 
 @Injectable({
   providedIn: 'root'
@@ -54,5 +56,9 @@ export class MunicipalJsonService {
     }));
 
     return result;
+  }
+
+  getMunicipalsFromProvince(): Observable<MunicipalsProvinceResponse>  {
+    return of(municipalsProvince);
   }
 }

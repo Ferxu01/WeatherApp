@@ -6,12 +6,14 @@ import { MunicipalsPageComponent } from './municipals-page/municipals-page.compo
 import { ComponentsModule } from 'src/app/components/components.module';
 import { MunicipalDetailPageComponent } from './municipal-detail-page/municipal-detail-page.component';
 import { PipesModule } from 'src/app/pipes/pipes.module';
+import { ProvinceMunicipalsPageComponent } from './province-municipals-page/province-municipals-page.component';
 
 
 @NgModule({
   declarations: [
     MunicipalsPageComponent,
-    MunicipalDetailPageComponent
+    MunicipalDetailPageComponent,
+    ProvinceMunicipalsPageComponent
   ],
   imports: [
     CommonModule,

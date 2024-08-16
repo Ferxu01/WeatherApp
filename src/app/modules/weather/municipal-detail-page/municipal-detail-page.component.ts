@@ -18,7 +18,7 @@ export class MunicipalDetailPageComponent implements OnInit {
   province!: Province;
   community!: AutonCommunity;
 
-  constructor(private activatedRoute: ActivatedRoute, private weatherService: WeatherJsonService) { }
+  constructor(private weatherService: WeatherJsonService) { }
 
   ngOnInit(): void {
       //console.warn('Id: ', this.activatedRoute.snapshot.params['id']);
